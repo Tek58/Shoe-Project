@@ -1,0 +1,9 @@
+body{
+    font-family : 'Lora', serif;
+}
+footer{
+    background-color: #142952;
+}
+.card img{
+    border-radius: 150%;
+}
