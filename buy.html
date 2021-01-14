@@ -21,17 +21,21 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id = "colNav">
-            <div class="navbar-nav">
+            <div class="navbar-nav d-flex align-items-end flex-col">
                 <a class="nav-link" href="services.html">Services</a>
                 <a class="nav-link" href="about.html">About</a>
             </div>
-            <div class="navbar-nav ml-auto">
+            <div class="navbar-nav ml-auto d-flex align-items-end flex-col">
                 <a class="nav-link" href="login.html">Login</a>
                 <a class="nav-link" href="register.html">Register</a>
             </div>
         </div>
     </nav>
     <div class="container-fluid mb-2">
+        <div class="row mt-5 ml-5">
+            <p ><h1 style="font-style: italic; font-weight:bold">Check Out </h1></p>
+            
+        </div>
         <div class="row">
             <div class="col-lg-6">
                 <div class="container-fluid " >
@@ -42,9 +46,9 @@
                           </div>
                           <div class="col-md-7">
                             <div class="card-body">
-                              <h5 class="card-title">Nike Sneaker</h5>
+                              <h5 class="card-title" style="font-weight:bold">Nike Sneaker</h5>
                               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                              <p class="card-text"><small class="text-muted display-4">Price: 120$</small></p>
+                              <p class="card-text"><h3 class="text-muted" style="font-style: italic;">Price: 120$</h3></p>
                             </div>
                           </div>
                         </div>
@@ -62,6 +66,8 @@
                             <label for="payment">Select Payment Method</label>
                             <select class="form-control" id="payment">
                               <option>Paypal</option>
+                              <option>Cash</option>
+                              <option>Check</option>
                               <option>Bitcoin</option>
                               <option>Express</option>
                               <option>Amazon Pay</option>
@@ -76,7 +82,7 @@
                         <div class="form-group">
                             <label for="adress">Address</label>
                             <textarea class="form-control" id="adress" rows="3"></textarea>
-                          </div>
+                        </div>
                         <button type="submit" class="btn btn-primary btn-lg">Submit</button>
                     </form>
                 </div>
@@ -88,14 +94,14 @@
             <div class="row ml-5">
                 <div class="col-lg-4 col-md-6 my-5 ">
                     <div class="row">
-                        <h3>Heading</h3>
+                        <h3 style="font-style: italic;">Heading</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum error repellat, debitis delectus incidunt tenetur id nam debitis delectus incidunt tenetur id nam </p>
-                        <span><i class="fab fa-facebook-square"></i> <i class="fab fa-twitter-square"></i></span>
+                        <span><a href="www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a> <a href="www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a> </span>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 my-5 ">
-                    <h3 class="text-center">Links</h3>
-                    <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6 my-5 pl-5">
+                    <h3 style="font-style: italic;">Links</h3>
+                    <div class="row pl-3">
                         <ul>
                             <li>- <a href="#">Lorem Ibsum</a></li>
                             <li>- <a href="#">Lorem Ibsum on</a></li>
@@ -108,13 +114,13 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 my-5">
-                    <h3>Location</h3>
+                    <h3 style="font-style: italic;">Location</h3>
                     <p>22, Lorem ipsum dolor sit, amet consectetur </p>
                     <p><i class="fas fa-phone"></i> (541)751-5068</p>
                     <p><i class="far fa-envelope"></i> info@hoff.com</p>
                 </div>
             </div>
-            <div class="row  ml-5 ">
+            <div class="row  ml-5">
                 <p>&#169 2021 All Rights Reserved</p>
             </div>
         </div>
